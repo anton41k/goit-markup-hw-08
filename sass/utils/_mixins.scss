@@ -1,0 +1,13 @@
+@mixin transition($type-list...) {
+  $x: '';
+
+  @each $type in $type-list {
+    $last-type: nth($list: $type-list, $n: -1);
+    $com: '';
+    @if $last-type != $type {
+      $com: ',';
+    }
+    $x: #{$x} #{$type} var(--transition-duration) var(--transition-timing-function) #{$com};
+  }
+  transition: $x;
+}

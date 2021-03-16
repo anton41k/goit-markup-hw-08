@@ -1,0 +1,39 @@
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-blue: rgba(33, 150, 243, 1);
+  --color-blue-submit: rgba(24, 140, 232, 1);
+  --color-blue09: rgba(33, 150, 243, 0.9);
+  --color-gray: rgba(117, 117, 117, 1);
+  --color-gray05: rgba(117, 117, 117, 0.5);
+  --color-gray06: rgba(255, 255, 255, 0.6);
+  --color-gray01-bgicon: rgba(255, 255, 255, 0.1);
+  --color-gray03-bgcinput: rgba(255, 255, 255, 0.3);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-black: rgba(33, 33, 33, 1);
+  --color-black01: rgba(0, 0, 0, 0.1);
+  --color-black02: rgba(33, 33, 33, 0.2);
+  --color-gray08: rgba(47, 48, 58, 0.8);
+  --color-gray-bgr: rgba(47, 48, 58, 1);
+  --color-white-bgr: rgba(245, 244, 250, 1);
+  --color-black02-bgr: rgba(0, 0, 0, 0.2);
+  --color-gray-border: rgba(238, 238, 238, 1);
+  --color-gray-header-line: rgba(236, 236, 236, 1);
+  --set-gap: 30px;
+  --color-black04: rgba(47, 48, 58, 0.4);
+  --color-gray-customers: rgba(175, 177, 184, 1);
+  --pad-container: 94px;
+  --filtr-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --team-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --portfolio-card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  --send-shadow: rgba(0, 0, 0, 0.15);
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --gradient-bgc-hero: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+}
