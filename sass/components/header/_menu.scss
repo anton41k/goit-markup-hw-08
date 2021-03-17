@@ -1,0 +1,17 @@
+.menu-container{
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+
+    background-color: var(--color-white);
+    
+    @media screen and (min-width: 320px) {
+      width: 100%;
+    }
+    height: 796px;
+
+    padding: 48px 40px;
+  } 
+}
