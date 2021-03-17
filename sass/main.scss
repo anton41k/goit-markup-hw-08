@@ -4,23 +4,28 @@
 @import './utils/mixins';
 @import './components/logo';
 @import './components/social-networks';
+
 @import './components/header/header';
 @import './components/header/navigation';
 @import './components/header/container-header';
 @import './components/header/contact';
+
 @import './components/main/studio/hero';
 @import './components/main/studio/features';
 @import './components/main/studio/specialization';
 @import './components/main/studio/team';
 @import './components/main/studio/customers';
+
 @import './components/main/portfolio/container';
-@import './components/main/portfolio/type-projects';
+@import './components/main/portfolio/filters';
 @import './components/main/portfolio/projects';
 @import './components/main/portfolio/overlay';
+
 @import './components/footer/container';
 @import './components/footer/contact';
 @import './components/footer/social-networks';
 @import './components/footer/subscription';
+
 @import './components/order-service/backdrop';
 @import './components/order-service/modal';
 @import './components/order-service/form';
