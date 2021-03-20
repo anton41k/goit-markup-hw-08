@@ -5,25 +5,24 @@
 
   display: flex;
   align-items: center;
-  
+
   margin-left: auto;
   margin-right: auto;
 
   background-color: grey;
-  background-image: var(--gradient-bgc-hero),
-    url(../images/hero.jpg);
+  background-image: var(--gradient-bgc-hero), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.hero__thumb {
+/*.hero__thumb {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
   
   max-width: 696px;
-}
+}*/
 
 .hero__tittle {
   font-weight: 900;
@@ -35,7 +34,7 @@
   color: var(--color-white);
 
   margin-bottom: 30px;
-  
+
   max-width: 696px;
 }
 
@@ -47,7 +46,7 @@
 
   color: var(--color-white);
   background-color: var(--color-blue);
-  
+
   padding: 10px 32px;
 
   border-radius: 4px;
