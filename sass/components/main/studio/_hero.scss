@@ -9,31 +9,28 @@
   background-size: cover;
   background-position: center;
 
-  background-image: var(--gradient-bgc-hero),
-    url(../../../../images/hero-mobile.jpg);
+  background-image: var(--gradient-bgc-hero), url(../images/hero-mobile.jpg);
 
   @media (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     background-image: var(--gradient-bgc-hero),
-      url(../../../../images/hero-mobile@2x.jpg);
+      url(../images/hero-mobile@2x.jpg);
   }
 
   @media screen and (min-width: 481px) {
-    background-image: var(--gradient-bgc-hero),
-      url(../../../../images/hero-tablet.jpg);
+    background-image: var(--gradient-bgc-hero), url(../images/hero-tablet.jpg);
 
     @media (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
       background-image: var(--gradient-bgc-hero),
-        url(../../../../images/hero-tablet@2x.jpg);
+        url(../images/hero-tablet@2x.jpg);
     }
   }
 
   @media screen and (min-width: 769px) {
-    background-image: var(--gradient-bgc-hero),
-      url(../../../../images/hero-desktop.jpg);
+    background-image: var(--gradient-bgc-hero), url(../images/hero-desktop.jpg);
 
     @media (--webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
       background-image: var(--gradient-bgc-hero),
-        url(../../../../images/hero-desktop@2x.jpg);
+        url(../images/hero-desktop@2x.jpg);
     }
   }
 
