@@ -17,7 +17,6 @@
 }
 
 .features__item {
-  flex-basis: calc(100% / 1 - #{var(--set-gap)});
   margin-top: var(--set-gap);
   margin-left: var(--set-gap);
 

@@ -946,8 +946,6 @@ footer {
 }
 
 .features__item {
-  -ms-flex-preferred-size: calc(100% / 1 - var(--set-gap));
-      flex-basis: calc(100% / 1 - var(--set-gap));
   margin-top: var(--set-gap);
   margin-left: var(--set-gap);
 }
@@ -1101,8 +1099,6 @@ footer {
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: var(--team-shadow);
           box-shadow: var(--team-shadow);
-  -ms-flex-preferred-size: calc(100% / 1 - var(--set-gap));
-      flex-basis: calc(100% / 1 - var(--set-gap));
   margin-top: var(--set-gap);
   margin-left: var(--set-gap);
 }
