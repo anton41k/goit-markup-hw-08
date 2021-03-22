@@ -1,0 +1,60 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 100%;
+
+  max-width: 450px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+  }
+
+  padding: 40px;
+
+  background-color: var(--color-white);
+  box-shadow: var(--team-shadow);
+  border-radius: 4px;
+
+  transform: translate(-50%, -50%) scale(1);
+
+  @include transition(transform);
+}
+
+.modal__close-btn {
+  border-radius: 50%;
+  border: 1px solid var(--color-black01);
+  background-color: var(--color-white);
+  outline: none;
+
+  padding: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: var(--color-blue);
+  }
+}
+
+.modal__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+
+  margin-bottom: 12px;
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.15;
+  }
+}

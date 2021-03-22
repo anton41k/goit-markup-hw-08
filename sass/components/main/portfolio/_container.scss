@@ -1,0 +1,9 @@
+.container--portfolio {
+  padding-top: var(--pad-container-mobile-tablet);
+  padding-bottom: var(--pad-container-mobile-tablet);
+
+  @media screen and (min-width: 1200px) {
+    padding-top: var(--pad-container);
+    padding-bottom: var(--pad-container);
+  }
+}

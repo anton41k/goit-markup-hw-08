@@ -1,0 +1,43 @@
+.footer__contact {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+
+    text-align: left;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+
+    text-align: left;
+  }
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+
+  display: block;
+
+  color: var(--color-gray06);
+
+  &:not(:first-child) {
+    margin-top: 8px;
+
+    @media screen and (min-width: 1200px) {
+      margin-top: 9px;
+    }
+  }
+}
+
+.address__link--geo {
+  color: var(--color-white);
+}

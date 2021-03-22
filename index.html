@@ -34,7 +34,7 @@
                 <ul class="contact__list">            
                     <li class="contact__item">
                         <a class="contact__link" href="mailto:info@devstudio.com">
-                            <svg class="icon contact__icon" width="16" height="12">
+                            <svg class="icon contact__icon contact__icon--mail" width="16" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
                             info@devstudio.com
@@ -42,15 +42,15 @@
                     </li>
                     <li class="contact__item">
                     <a class="contact__link" href="tel:+380961111111">
-                        <svg class="icon contact__icon" width="10" height="16">
+                        <svg class="icon contact__icon contact__icon--tel" width="10" height="16">
                             <use href="./images/icons.svg#icon-tel"></use>
                         </svg>
                         +38 096 111 11 11</a>
                     </li>
                 </ul>
             </div>
-            <button type="button" class="btn-menu">
-                <svg class="icon icon--menu" width="24" height="16">
+            <button type="button" class="btn-menu js-open-menu"  aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="icon contact__icon icon--menu" width="24" height="16">
                     <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
             </button>
@@ -58,7 +58,7 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container container--hero">
                 <h1 class="hero__tittle">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
             </div>
@@ -474,7 +474,66 @@
             </form>    
         </div>
     </div>
+    <!--Mobile menu-->
+    <div class="menu-mobile__container js-menu-container" id="mobile-menu">
+        <button class="btn-menu btn-menu--close js-close-menu">
+            <svg class="icon" width="19" height="19">
+                <use href="./images/icons.svg#icon-close-menu"></use>
+            </svg>
+        </button>
+        <nav class="menu-nav">
+            <ul class="menu-nav__list">
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link menu-nav__link--current" href="./index.html">Студия</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contact-box">
+            <ul class="menu-contact__list">
+                <li class="menu-contact__item">
+                    <a class="menu-contact__link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>                    
+                </li>
+                <li class="menu-contact__item">
+                    <a class="menu-contact__link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-networks__list">
+                <li class="menu-networks__item">
+                    <a href="https://www.instagram.com/" class="menu-networks__link">
+                        Instagram
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://twitter.com/" class="menu-networks__link">
+                        Twitter
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://uk-ua.facebook.com/" class="menu-networks__link">
+                        Facebook
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://www.linkedin.com/" class="menu-networks__link">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 
 </body>
 

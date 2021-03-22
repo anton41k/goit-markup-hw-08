@@ -1,0 +1,24 @@
+.menu-contact__list {
+  margin-bottom: 64px;
+}
+
+.menu-contact__item:not(:last-child) {
+  padding-bottom: 32px;
+}
+
+.menu-contact__link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+
+  color: var(--color-gray);
+
+  &:hover,
+  &:focus {
+    font-size: 34px;
+    line-height: 1.17;
+
+    color: var(--color-blue);
+  }
+}

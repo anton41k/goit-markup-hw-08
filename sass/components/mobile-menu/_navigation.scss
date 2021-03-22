@@ -1,0 +1,32 @@
+.menu-nav__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.menu-nav__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  color: var(--color-black);
+  text-decoration: none;
+
+  padding: 0;
+
+  display: block;
+
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: var(--color-blue);
+  }
+}
+
+.menu-nav__link--current {
+  color: var(--color-blue);
+
+  padding-bottom: 6px;
+}

@@ -1,7 +1,7 @@
 .menu-container {
   @media screen and (max-width: 767px) {
     display: none;
-    position: absolute;
+    /*position: absolute;
     left: 0;
     top: 0;
     z-index: 10000;
@@ -15,17 +15,31 @@
 
     @media screen and (max-width: 320px) {
       width: 100%;
-    }
+    }*/
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 .btn-menu {
-  background-color: transparent;
-  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  margin: 0;
   padding: 0;
-
+  background-color: transparent;
   cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
 
   @include transition(color);
 

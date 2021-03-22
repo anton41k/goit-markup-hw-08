@@ -50,6 +50,11 @@
                     </li>
                 </ul>
             </div>
+            <button type="button" class="btn-menu js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="icon contact__icon icon--menu" width="24" height="16">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
     </header>
     <main>
@@ -77,7 +82,7 @@
                         <li class="projects__item">
                             <a href="#" class="projects__link">
                                 <div class="projects__thumb">
-                                    <img src="./images/technocrack.jpg" alt="Технокряк">
+                                    <img class="projects__img" src="./images/technocrack.jpg" alt="Технокряк">
                                     <div class="projects__card-vishid">
                                         <p class="projects__description">
                                             Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
@@ -297,7 +302,64 @@
             </div>
         </div>
     </footer>
-
+    <!--Mobile menu-->
+    <div class="menu-mobile__container js-menu-container" id="mobile-menu">
+        <button class="btn-menu btn-menu--close js-close-menu">
+            <svg class="icon" width="19" height="19">
+                <use href="./images/icons.svg#icon-close-menu"></use>
+            </svg>
+        </button>
+        <nav class="menu-nav">
+            <ul class="menu-nav__list">
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="./index.html">Студия</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link menu-nav__link--current" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contact-box">
+            <ul class="menu-contact__list">
+                <li class="menu-contact__item">
+                    <a class="menu-contact__link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="menu-contact__item">
+                    <a class="menu-contact__link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-networks__list">
+                <li class="menu-networks__item">
+                    <a href="https://www.instagram.com/" class="menu-networks__link">
+                        Instagram
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://twitter.com/" class="menu-networks__link">
+                        Twitter
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://uk-ua.facebook.com/" class="menu-networks__link">
+                        Facebook
+                    </a>
+                </li>
+                <li class="menu-networks__item">
+                    <a href="https://www.linkedin.com/" class="menu-networks__link">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script src="./js/menu.js"></script>
 </body>
 
 </html>
