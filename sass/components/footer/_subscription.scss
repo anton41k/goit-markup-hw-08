@@ -24,14 +24,11 @@
 }
 
 .form-subscription {
-  display: flex;
+  display: flex;/**/
   @media screen and (max-width: 1199px) {
     flex-direction: column;
     align-items: center;
   }
-  /*@media screen and (min-width: 1200px) {
-    display: flex;
-  }*/
 }
 
 .form-subscription__input {
@@ -52,7 +49,9 @@
   }
 
   @media screen and (max-width: 1199px) {
-    min-width: 450px;
+    @media screen and (min-width: 480px) {
+      min-width: 450px;
+    }
 
     margin-bottom: 20px;
   }

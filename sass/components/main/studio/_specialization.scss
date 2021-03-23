@@ -16,10 +16,12 @@
 }
 
 .specialization__list {
-  display: flex;
-  flex-wrap: wrap;
-
   margin-left: calc(-1 * var(--set-gap));
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .specialization__item {
