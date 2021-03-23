@@ -38,6 +38,15 @@
   }
 }
 
+.projects__thumb {
+  height: 294px;
+}
+
+.projects__img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .projects__box {
   padding: 20px 24px;
 }

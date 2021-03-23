@@ -55,12 +55,25 @@
   }
 }
 
-.team__box {
-  padding: 30px 122px 24px 122px;
+.team__thumb {
+  height: 460px;
 
   @media screen and (min-width: 768px) {
-    padding: 30px 74px 24px 74px;
+    height: 374px;
   }
+
+  @media screen and (min-width: 1200px) {
+    height: 260px;
+  }
+}
+
+.team__img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.team__box {
+  padding: 30px 0 24px 0;
 
   @media screen and (min-width: 1200px) {
     padding: 30px 32px;
