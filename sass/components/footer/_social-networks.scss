@@ -1,8 +1,10 @@
 .footer__social {
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
+
   @media screen and (max-width: 1199px) {
     text-align: center;
-
-    padding-top: 60px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -18,7 +20,7 @@
 
   color: var(--color-white);
 
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .social__link--footer {

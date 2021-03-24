@@ -1,5 +1,5 @@
 .contact__list {
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-top: 21px;
     padding-bottom: 21px;
   }
@@ -14,11 +14,11 @@
 
 .contact__item:first-child {
   @media screen and (min-width: 768px) {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   @media screen and (min-width: 1200px) {
     margin-right: 50px;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
